@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Signup } from "./component/SignUp.js";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+
+const App = () => {
+  return(
+
+   <div className="container mt-3">
+     <div className='row'>
+       <div className='col-md-5'>
+        <Signup/>
+       </div>
+       <div className='col-md-7'>
+       </div>
+     </div>
+   </div>
+  )
+  
+  }
 
 export default App;
