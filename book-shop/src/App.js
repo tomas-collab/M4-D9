@@ -8,9 +8,9 @@ const App = () => {
 
    <div className="container mt-3">
      <div className='row'>
-       {/* <div className='col-md-5'>
-        <Signup/>
-       </div> */}
+       <div className='col-md-5'>
+        {/* <Signup/> */}
+       </div>
        <div>
          <Registration/>
        </div>
